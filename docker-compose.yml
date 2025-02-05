@@ -8,6 +8,6 @@ services:
     volumes:
       - workspace:/siyuan/workspace
     restart: unless-stopped
-    env_file: stack-env
+    env_file: stack.env
 volumes:
   workspace:
